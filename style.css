@@ -1,0 +1,32 @@
+h1{
+    color:#ffb299;
+}
+
+table,tr{
+    border: 1px solid #ddd;
+}
+
+table{
+    border-collapse:collapse;
+    width:50%;
+    border-bottom: 2px solid #f3ad96;
+}
+
+td,th{
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+    background-color:#ffb299;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color:#f7d3c5;
+}
+
+tr:hover{
+    background-color:pink;
+    cursor:pointer;
+}
